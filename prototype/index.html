@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <meta name="description" content="Концепция главной страницы Пироговского Центра.">
+  <title>Пироговский Центр — прототип главной</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="prototype.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">К основному содержанию</a>
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a href="#main" class="brand"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 44 44" fill="none"><path d="M22 4 37 10v11c0 8.5-5.2 14-15 19C12.2 35 7 29.5 7 21V10L22 4Z" stroke="currentColor" stroke-width="1.35"/><path d="M22 12v19M13 21.5h18" stroke="currentColor" stroke-width="2"/><circle cx="22" cy="21.5" r="6.5" stroke="currentColor" stroke-width="1.15"/></svg></span><span><strong>Пироговский Центр</strong><small>НМХЦ им. Н.И. Пирогова Минздрава России</small></span></a>
+      <button class="mobile-toggle" type="button" aria-expanded="false" aria-controls="navigation" aria-label="Открыть меню"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+      <div class="header-tools"><a class="cabinet" href="https://www.pirogov-center.ru/appointment/">Личный кабинет</a><a class="header-phone" href="tel:+74994640303"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M8 4H5a1 1 0 0 0-1 1 15 15 0 0 0 15 15 1 1 0 0 0 1-1v-3l-5-2-1.5 2a11 11 0 0 1-5.5-5.5L10 9Z"/></svg> <span>+7 499 464-03-03</span></a></div>
+    </div>
+    <nav id="navigation" aria-label="Основное меню"><div class="wrap nav-row">
+        <details name="main-menu"><summary>Пациентам</summary><div class="nav-panel"><a href="#patient-guide">Как обратиться</a><a href="https://www.pirogov-center.ru/appointment/">Запись на приём</a><a href="https://www.pirogov-center.ru/patient/specialists/">Врачи</a><a href="https://www.pirogov-center.ru/patient/hospital/terms-admission/">Госпитализация</a><a href="https://www.pirogov-center.ru/patient/hospital/compulsory-health-insurance/">Помощь по ОМС</a><a href="https://www.pirogov-center.ru/patient/price/">Платные услуги и ДМС</a><a href="https://www.pirogov-center.ru/patient/telemedicine/">Телемедицина</a><a href="https://www.pirogov-center.ru/appointment/">Личный кабинет</a></div></details>
+        <details name="main-menu"><summary>Лечение</summary><div class="nav-panel"><a href="#treatment">Направления лечения</a><a href="https://www.pirogov-center.ru/patient/hospital/department/">Клиники и отделения</a><a href="https://www.pirogov-center.ru/patient/policlinics/">Амбулаторная помощь</a><a href="https://www.pirogov-center.ru/patient/helping-children/">Помощь детям</a><a href="https://www.pirogov-center.ru/patient/innovative-technologies/">Технологии и диагностика</a></div></details>
+        <details name="main-menu"><summary>Специалистам</summary><div class="nav-panel"><a href="https://www.pirogov-center.ru/specialist/">Ресурсы для специалистов</a><a href="https://www.pirogov-center.ru/about/press-centre/events/">Конференции</a><a href="https://www.pirogov-center.ru/specialist/reference-center/">Референс-центр</a><a href="https://www.pirogov-center.ru/about/structure/federal-center-disaster-medicine/">Медицина катастроф</a></div></details>
+        <details name="main-menu"><summary>Наука</summary><div class="nav-panel"><a href="https://www.pirogov-center.ru/science/clinical-trials/">Клинические исследования и испытания</a><a href="https://www.pirogov-center.ru/about/press-centre/events/">Научные мероприятия</a><a href="https://www.pirogov-center.ru/about/structure/local-ethical-committee/">Этический комитет</a><a href="https://www.pirogov-center.ru/about/structure/dissertational-council/">Диссертационный совет</a><a href="#academic">Наука и образование на главной</a></div></details>
+        <details name="main-menu"><summary>Образование</summary><div class="nav-panel"><a href="https://www.pirogov-center.ru/education/institute/">Институт усовершенствования врачей</a><a href="https://www.pirogov-center.ru/education/institute/traineeship/">Ординатура</a><a href="https://www.pirogov-center.ru/education/institute/postgraduate/">Аспирантура</a><a href="https://www.pirogov-center.ru/education/institute/additional-education/">Дополнительное образование</a><a href="https://www.pirogov-center.ru/education/institute/common/">Сведения об образовательной организации</a></div></details>
+        <details name="main-menu"><summary>О Центре</summary><div class="nav-panel"><a href="https://www.pirogov-center.ru/about/">Сведения о медицинской организации</a><a href="https://www.pirogov-center.ru/about/license/">Лицензии</a><a href="https://www.pirogov-center.ru/about/structure/">Структура и управление</a><a href="#news">Новости</a><a href="#heritage">Основатель</a><a href="https://www.pirogov-center.ru/about/contacts/">Адреса и контакты</a></div></details>
+      </div></nav>
+  </header>
+  <main id="main">
+    <div class="intro">
+      <div class="wrap hero">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> Федеральный медицинский центр</p>
+          <h1>Пироговский<br>Центр</h1>
+          <p class="hero-subtitle">Национальный медико-хирургический Центр имени Н. И. Пирогова Минздрава России</p>
+          <div class="patient-actions" id="patients" aria-label="Действия пациента">
+            <a class="action primary" href="https://www.pirogov-center.ru/appointment/"><span class="action-icon"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5.5" width="17" height="15" rx="2"/><path d="M7.5 3v5m9-5v5m-13 2.5h17m-13 4.5h3"/></svg></span><span class="action-copy"><strong>Записаться на приём</strong><small>Онлайн через личный кабинет</small></span><span class="action-arrow"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></span></a>
+            <a class="action" href="https://www.pirogov-center.ru/patient/specialists/"><span class="action-icon"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.5" cy="10.5" r="6"/><path d="m15 15 5 5"/></svg></span><span class="action-copy"><strong>Найти врача</strong><small>Специалисты Центра</small></span><span class="action-arrow"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></span></a>
+            <a class="action" href="https://www.pirogov-center.ru/patient/hospital/terms-admission/"><span class="action-icon"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="M12 8v8m-4-4h8"/></svg></span><span class="action-copy"><strong>Госпитализация</strong><small>Порядок и документы</small></span><span class="action-arrow"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></span></a>
+          </div>
+        </div>
+        <figure class="hero-photo">
+          <img src="assets/campus.jpg" alt="Здание клиники Пироговского Центра" width="960" height="540" fetchpriority="high">
+          <a class="founder-link" href="https://www.pirogov-center.ru/about/management/president/">
+            <img src="assets/founder-portrait.png" alt="" width="44" height="44">
+            <span>
+              <small>Президент и основатель Центра</small>
+              <strong><svg aria-hidden="true" viewBox="0 0 16 20" fill="currentColor"><path d="M2 10 10 2v5h5v6h-5v5Z"/></svg>Все о Ю.Л. Шевченко</strong>
+            </span>
+          </a>
+          <figcaption><span>Клиника грудной и сердечно-сосудистой хирургии<br>имени Святого Георгия</span><a href="https://www.pirogov-center.ru/about/contacts/" aria-label="Адреса и контакты Центра"><span aria-hidden="true" class="route-arrow">↗</span></a></figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <section class="wrap clinical page-section" id="treatment" aria-labelledby="treatment-title">
+      <div class="section-heading"><h2 id="treatment-title">Направления лечения</h2><a class="text-link" href="https://www.pirogov-center.ru/patient/hospital/department/">Все клиники и отделения <span aria-hidden="true" class="route-arrow">↗</span></a></div>
+      <div class="clinical-grid">
+        <a class="clinical-card" href="https://www.pirogov-center.ru/patient/hospital/department/detail.php?ID=2399"><span class="clinical-icon"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20 4.5 12.5A4.5 4.5 0 0 1 11 6l1 1 1-1a4.5 4.5 0 0 1 6.5 6.5Z"/></svg></span><span><strong>Кардиохирургия</strong><small>Операции на сердце</small></span><span aria-hidden="true" class="route-arrow">↗</span></a>
+        <a class="clinical-card" href="https://www.pirogov-center.ru/patient/hospital/department/detail.php?ID=2396"><span class="clinical-icon"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14m0-11c0-5-7-5-7 0-3 2-2 6 1 7 0 4 6 5 6 1m0-8c0-5 7-5 7 0 3 2 2 6-1 7 0 4-6 5-6 1"/></svg></span><span><strong>Нейрохирургия</strong><small>Центр нейрохирургии</small></span><span aria-hidden="true" class="route-arrow">↗</span></a>
+        <a class="clinical-card" href="https://www.pirogov-center.ru/patient/hospital/department/detail.php?ID=2377"><span class="clinical-icon"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18m-9-9h18M6 6l12 12M18 6 6 18"/></svg></span><span><strong>Онкологическая хирургия</strong><small>Профильное отделение</small></span><span aria-hidden="true" class="route-arrow">↗</span></a>
+        <a class="clinical-card" href="https://www.pirogov-center.ru/patient/hospital/department/detail.php?ID=2386"><span class="clinical-icon"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"><path d="M8 8a3 3 0 1 1 3-3l7 7a3 3 0 1 1 2 5 3 3 0 1 1-5 2l-7-7a3 3 0 1 1 0-4Z"/></svg></span><span><strong>Травматология и ортопедия</strong><small>Профильный центр</small></span><span aria-hidden="true" class="route-arrow">↗</span></a>
+        <a class="clinical-card" href="https://www.pirogov-center.ru/patient/hospital/department/detail.php?ID=37942"><span class="clinical-icon"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"><path d="M4 13h4l3-6 3 10 2-4h4"/></svg></span><span><strong>Медицинская реабилитация</strong><small>Восстановительное лечение</small></span><span aria-hidden="true" class="route-arrow">↗</span></a>
+        <a class="clinical-card" href="https://www.pirogov-center.ru/patient/helping-children/"><span class="clinical-icon"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4a2 2 0 1 0 0 4 2 2 0 1 0 0-4m-6 6 6 2 6-2m-6 2v3m0 0-4 5m4-5 4 5"/></svg></span><span><strong>Помощь детям</strong><small>Детский диагностический центр</small></span><span aria-hidden="true" class="route-arrow">↗</span></a>
+      </div>
+    </section>
+    <section class="patient-band" id="patient-guide" aria-labelledby="guide-title">
+      <div class="wrap patient-grid"><div><h2 id="guide-title">Как получить помощь</h2><p>Условия обращения, подготовка к госпитализации и контакты подразделений.</p></div>
+      <div class="guide-links">
+      <a href="https://www.pirogov-center.ru/patient/hospital/compulsory-health-insurance/">Помощь по ОМС</a><a href="https://www.pirogov-center.ru/patient/hospital/">Стационар и ВМП</a><a href="https://www.pirogov-center.ru/patient/price/">Платные услуги и ДМС</a><a href="https://www.pirogov-center.ru/patient/hospital/terms-admission/">Госпитализация и документы</a><a href="https://www.pirogov-center.ru/patient/telemedicine/">Дистанционная консультация</a><a href="https://www.pirogov-center.ru/patient/info/poryadok-organizacii-posescheniya-pacienta-v-stacionare/">Посещение пациентов</a><a href="https://www.pirogov-center.ru/about/contacts/">Куда приехать</a><a href="https://www.pirogov-center.ru/patient/info/faq/">Частые вопросы</a></div></div>
+    </section>
+    <section class="wrap page-section academic" id="academic" aria-labelledby="academic-title">
+      <div class="section-heading"><h2 id="academic-title">Наука и образование</h2></div>
+      <div class="academic-grid">
+      <article><h3>Исследования</h3><p>Клинические исследования лекарств и испытания медицинских изделий.</p><div><a href="https://www.pirogov-center.ru/science/clinical-trials/">Клинические исследования</a><a href="https://www.pirogov-center.ru/about/press-centre/events/">Научные мероприятия</a></div></article><article><h3>Обучение медицинских кадров</h3><p>Институт усовершенствования врачей Пироговского Центра.</p><div><a href="https://www.pirogov-center.ru/education/institute/traineeship/">Ординатура</a><a href="https://www.pirogov-center.ru/education/institute/postgraduate/">Аспирантура</a><a href="https://www.pirogov-center.ru/education/institute/additional-education/">Дополнительное образование</a></div></article><article><h3>Врачам и организациям</h3><p>Профессиональные материалы и федеральные экспертные подразделения.</p><div><a href="https://www.pirogov-center.ru/specialist/">Ресурсы для специалистов</a><a href="https://www.pirogov-center.ru/specialist/reference-center/">Референс-центр</a><a href="https://www.pirogov-center.ru/about/structure/federal-center-disaster-medicine/">Медицина катастроф</a></div></article>
+      </div>
+    </section>
+    <section class="wrap section-heading centre-heading" aria-labelledby="centre-title">
+      <h2 id="centre-title">Жизнь Центра</h2>
+    </section>
+    <section class="wrap spotlight" aria-label="Карусель материалов о Центре" aria-roledescription="карусель">
+      <div class="slides" id="spotlight-slides">
+        <article class="slide" aria-roledescription="слайд" aria-label="1 из 3">
+          <div class="slide-copy">
+            <p class="eyebrow"><span></span> История Центра</p>
+            <h2>К 25-летию<br>Пироговского Центра</h2>
+            <p>История учреждения, его основателя и команды.</p>
+            <a class="slide-link" href="https://www.pirogov-center.ru/our-history/">История Центра <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M6 18 18 6M8 6h10v10"/></svg></a>
+          </div>
+          <img src="assets/campus.jpg" alt="Клиника грудной и сердечно-сосудистой хирургии имени Святого Георгия" width="960" height="540">
+        </article>
+        <article class="slide" aria-roledescription="слайд" aria-label="2 из 3" hidden>
+          <div class="slide-copy">
+            <p class="eyebrow"><span></span> Технологии</p>
+            <h2>Современная<br>хирургия</h2>
+            <p>Инновационные технологии в клинической практике Центра.</p>
+            <a class="slide-link" href="https://www.pirogov-center.ru/patient/innovative-technologies/">Технологии Центра <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M6 18 18 6M8 6h10v10"/></svg></a>
+          </div>
+          <img src="assets/surgery.jpg" alt="Иллюстрация: медицинская команда в операционной">
+        </article>
+        <article class="slide award-slide" aria-roledescription="слайд" aria-label="3 из 3" hidden>
+          <div class="slide-copy">
+            <p class="eyebrow"><span></span> Государственная награда</p>
+            <h2>Орден<br>«За доблестный труд»</h2>
+            <p>В 2024 году награду получил коллектив Пироговского Центра.</p>
+            <a class="slide-link" href="https://www.pirogov-center.ru/about/press-centre/news/detail.php?ID=70765">О награждении <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M6 18 18 6M8 6h10v10"/></svg></a>
+          </div>
+          <div class="award-year" aria-hidden="true">2024</div>
+        </article>
+      </div>
+      <div class="carousel-controls" aria-label="Управление каруселью">
+        <button type="button" data-shift="-1" aria-label="Предыдущий слайд" aria-controls="spotlight-slides"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="m14 6-6 6 6 6"/></svg></button>
+        <span id="slide-count" aria-live="polite" aria-atomic="true">1 / 3</span>
+        <button type="button" data-shift="1" aria-label="Следующий слайд" aria-controls="spotlight-slides"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="m10 6 6 6-6 6"/></svg></button>
+      </div>
+    </section>
+    <section class="wrap news" id="news" aria-labelledby="news-title">
+      <div class="section-heading">
+        <h2 id="news-title">Новости Центра</h2>
+        <a class="text-link" href="https://www.pirogov-center.ru/about/press-centre/news/">Все новости <span aria-hidden="true" class="route-arrow">↗</span></a>
+      </div>
+      <div class="news-grid">
+        <article class="news-card">
+          <a href="https://www.pirogov-center.ru/about/press-centre/news/detail.php?ID=75643" aria-labelledby="news-digital">
+            <time datetime="2026-11-12">12 ноября 2026</time>
+            <h3 id="news-digital">Телемедицина и роботизированные системы на саммите «Цифроайтимед»</h3>
+            <p>Центр представил в Сеченовском Университете сценарии развития искусственного интеллекта в здравоохранении.</p>
+            <span class="news-arrow" aria-hidden="true">↗</span>
+          </a>
+        </article>
+        <article class="news-card">
+          <a href="https://www.pirogov-center.ru/about/press-centre/news/detail.php?ID=75613" aria-labelledby="news-ai">
+            <time datetime="2026-11-06">6 ноября 2026</time>
+            <h3 id="news-ai">Пироговский Центр на форуме AI Telemed</h3>
+            <p>На пленарной сессии обсудили, как медицинским организациям внедрять ИИ и защищать данные пациентов.</p>
+            <span class="news-arrow" aria-hidden="true">↗</span>
+          </a>
+        </article>
+        <article class="news-card">
+          <a href="https://www.pirogov-center.ru/about/press-centre/news/detail.php?ID=75563" aria-labelledby="news-surgeons">
+            <time datetime="2026-10-22">22 октября 2026</time>
+            <h3 id="news-surgeons">Пироговский Центр на XVII Съезде хирургов России</h3>
+            <p>Специалисты Центра участвовали в организации съезда и работе секций по современным хирургическим технологиям.</p>
+            <span class="news-arrow" aria-hidden="true">↗</span>
+          </a>
+        </article>
+      </div>
+    </section>
+    <section class="wrap heritage" id="heritage" aria-labelledby="heritage-title">
+      <div class="section-heading">
+        <div><p class="eyebrow"><span></span> Юрий Леонидович Шевченко</p><h2 id="heritage-title">Научные труды основателя</h2></div>
+        <a class="text-link" href="https://www.pirogov-center.ru/about/management/president/library/">Библиотека трудов <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M6 18 18 6M8 6h10v10"/></svg></a>
+      </div>
+        <aside class="founder" aria-labelledby="founder-name">
+          <div class="founder-top">
+            <img src="assets/portrait-fallback.png" alt="Юрий Леонидович Шевченко" width="400" height="400" loading="lazy">
+            <div class="founder-label">
+              <p>Основатель Центра</p>
+              <h2 id="founder-name">Юрий<br>Шевченко</h2>
+              <span>Президент и научный руководитель<br>Академик РАН</span>
+            </div>
+          </div>
+          <figure class="founder-quote">
+            <blockquote>«Пироговский Центр — храм врачевания, воспитания, образования и науки. […] Здесь каждый найдет исцеление и утешение».</blockquote>
+            <figcaption><a href="https://www.pirogov-center.ru/about/management/president/">Об основателе <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M6 18 18 6M8 6h10v10"/></svg></a></figcaption>
+          </figure>
+        </aside>
+      <div class="publications">
+          <h3>Научные публикации</h3>
+          <a class="publication" href="https://www.pirogov-center.ru/specialist/recommended/princip-poocherednogo-sokraschenia-kardiomiocitov/"><span><strong>Явление поочередного сокращения кардиомиоцитов и их ассоциаций</strong><small>Ю. Л. Шевченко · 10 февраля 2023</small></span><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M6 18 18 6M8 6h10v10"/></svg></a>
+          <a class="publication" href="https://www.pirogov-center.ru/specialist/recommended/immobiliziruyuschiy-intersticialniy-fibroz-serdca/"><span><strong>Иммобилизирующий интерстициальный фиброз сердца</strong><small>Ю. Л. Шевченко · 23 августа 2023</small></span><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M6 18 18 6M8 6h10v10"/></svg></a>
+          <a class="publication" href="https://www.pirogov-center.ru/specialist/recommended/yavlenie-prevysheniya-napryazhennosti-arterialnoy-bakteriemii-nad-venoznoy/"><span><strong>Явление превышения напряженности артериальной бактериемии над венозной при локализации инфекционного очага в сердце млекопитающих</strong><small>Ю. Л. Шевченко · 19 ноября 2023</small></span><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M6 18 18 6M8 6h10v10"/></svg></a>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-row">
+      <a class="brand" href="#main"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 44 44" fill="none"><path d="M22 4 37 10v11c0 8.5-5.2 14-15 19C12.2 35 7 29.5 7 21V10L22 4Z" stroke="currentColor" stroke-width="1.35"/><path d="M22 12v19M13 21.5h18" stroke="currentColor" stroke-width="2"/><circle cx="22" cy="21.5" r="6.5" stroke="currentColor" stroke-width="1.15"/></svg></span><span><strong>Пироговский Центр</strong><small>Концепция главной страницы</small></span></a>
+      <a href="https://www.pirogov-center.ru/about/contacts/">Москва, ул. Нижняя Первомайская, 70 <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M6 18 18 6M8 6h10v10"/></svg></a>
+      <a href="tel:+74994640303">+7 499 464-03-03</a>
+    </div>
+    <div class="wrap footer-links">
+      <a href="https://www.pirogov-center.ru/about/">Сведения о медицинской организации</a><a href="https://www.pirogov-center.ru/education/institute/common/">Сведения об образовательной организации</a><a href="https://www.pirogov-center.ru/patient/appeals/">Обращения граждан</a><a href="https://www.pirogov-center.ru/sitemap/">Карта сайта</a>
+    </div>
+  </footer>
+</body>
+</html>
